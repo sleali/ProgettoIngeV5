@@ -1,0 +1,5 @@
+{"posto":{"ID":6},"transizione":{"ID":5},"verso":true}
+{"posto":{"ID":7},"transizione":{"ID":5},"verso":true}
+{"posto":{"ID":8},"transizione":{"ID":5},"verso":false}
+{"posto":{"ID":9},"transizione":{"ID":6},"verso":true}
+{"posto":{"ID":8},"transizione":{"ID":6},"verso":false}

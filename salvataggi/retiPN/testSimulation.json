@@ -1,0 +1,5 @@
+{"posto":{"marcatura":2,"ID":1},"transizione":{"ID":0},"verso":true,"peso":1}
+{"posto":{"marcatura":2,"ID":2},"transizione":{"ID":0},"verso":true,"peso":2}
+{"posto":{"marcatura":0,"ID":3},"transizione":{"ID":0},"verso":false,"peso":1}
+{"posto":{"marcatura":1,"ID":4},"transizione":{"ID":1},"verso":true,"peso":1}
+{"posto":{"marcatura":0,"ID":3},"transizione":{"ID":1},"verso":false,"peso":1}
