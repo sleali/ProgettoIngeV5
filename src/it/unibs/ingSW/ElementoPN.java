@@ -57,7 +57,7 @@ public class ElementoPN implements Elemento<ElementoPN>{
 	
 	public boolean isEqual(ElementoPN ePar)
 	{
-		return (ePar.getPosto().isEqual(posto) && ePar.getTransizione().isEqual(transizione) && (ePar.getVerso() == verso));
+		return (ePar.getPosto().isEqual(posto) && ePar.getTransizione().isEqual(transizione) && (ePar.getVerso() == verso) && this.peso == ePar.getPeso());
 		
 	}
 	

@@ -20,4 +20,12 @@ public class TransizionePNP extends TransizioneN {
 	public void setPriorità(int priorità) {
 		this.priorità = priorità;
 	}
+	
+	public boolean isEqual(TransizionePNP t)
+	{
+		if(this.priorità == t.getPriorità() && this.getID() == t.getID())
+			return true;
+		else 
+			return false;
+	}
 }
