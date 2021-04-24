@@ -1,3 +1,4 @@
+//Per problemi con le lettere accentate in Eclipse andare in "Project->Properties->Resource" e settare la codifica su UTF-8
 package it.unibs.ingSW;
 
 import java.io.File;
