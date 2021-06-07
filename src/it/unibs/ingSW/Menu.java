@@ -7,6 +7,7 @@ import it.unibs.fp.mylib.*;
 public class Menu 
 {
 	public static void main(String[] args) throws Exception{
+		checkDirectory();
 		int scelta = 0;
 		do 
 		{
@@ -31,6 +32,27 @@ public class Menu
 		while (scelta != 0);
 	}
 	
+	private static void checkDirectory() {
+		File directory = new File("./salvataggi");
+		File directoryN = new File("./salvataggi/retiN");
+		File directoryPN = new File("./salvataggi/retiPN");
+		File directoryPNP = new File("./salvataggi/retiPNP");
+		
+		if (!directory.isDirectory()) {
+			directory.mkdir();
+			if(!directoryN.isDirectory()) {
+				directoryN.mkdir();
+			}
+			if(!directoryPN.isDirectory()) {
+				directoryPN.mkdir();
+			}
+			if(!directoryPNP.isDirectory()) {
+				directoryPNP.mkdir();
+			}
+		}
+		
+	}
+
 	public static void configuratore() throws Exception {
 		int scelta = 0;
 		do 
